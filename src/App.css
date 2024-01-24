@@ -12,7 +12,6 @@
   justify-content: center;
 }
 
-
 .container {
   display: flex;
   flex-direction: column;
@@ -28,4 +27,20 @@ label {
 
 .address {
   margin-top: 10px;
+}
+
+.container-table {
+  width: 50%;
+}
+
+@media screen and (max-width: 996px) {
+  .container-table {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container-table {
+    width: 100%;
+  }
 }
